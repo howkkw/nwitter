@@ -5,7 +5,7 @@ export default function Layout(){
 
     return(
             <>
-                <h2>Layout</h2>
+                <h2 className="text-3xl">Layout</h2>
                 <Outlet />
 
             </>
