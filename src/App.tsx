@@ -10,6 +10,7 @@ import { useState } from "react"
 import LoadingScreen from "./components/loading-screen"
 import { auth } from "./firebase"
 import ProtectedRoute from "./components/protected-route"
+import CreateTweet from "./routes/create-tweet"
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
             },
             {path:"/profile",
             element:<Profile />
+            },
+            {path:"/create-tweets",
+            element:<CreateTweet />
             }
 
         ],   
